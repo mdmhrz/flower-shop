@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: lato;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared Styles */
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 800;
+    font-size: 1.25rem;
+    transition: background-color .5s, box-shadow .5s;
+}
+
+.btn-primary:hover {
+    background-color: #bb2b4a;
+    box-shadow: 4px 5px 5px lightgray;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.align {
+    align-items: center;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.primary-bg {
+    background-color: rgba(229, 84, 115, 0.1);
+}
+
+.gp {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.15rem;
+    margin-bottom: 30px;
+}
+
+/* Styling for Banner Section */
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner {
+    padding: 30px 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 40px;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+.banner-image {
+    align-self: flex-end;
+    margin-bottom: -33px;
+}
+
+
+.banner-contexts {
+    max-width: 500px;
+}
+
+/* Styling for Featured Section */
+
+.featured {
+    padding: 50px 10%;
+}
+
+.ft-box {
+    width: 330px;
+    height: 380px;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.box-4 {
+    align-items: center;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.box-5 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.box-6 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.featured-container a {
+    font-weight: bold;
+}
+
+
+.ft-box img {
+    width: calc(100% - 120px);
+    padding: 20px 60px 0px;
+}
+
+.featured-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.featured {
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .banner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
