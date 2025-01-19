@@ -214,6 +214,19 @@ body {
 
 }
 
+/* styling for Footer */
+
+footer {
+    background-color: black;
+    padding: 80px 10%;
+    text-align: center;
+    color: white;
+}
+
+footer span {
+    color: #bb2b4a;
+}
+
 
 
 
