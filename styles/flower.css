@@ -2,6 +2,7 @@
 
 * {
     font-family: lato;
+    box-sizing: border-box;
 }
 
 body {
@@ -161,6 +162,26 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+/* Styling for Instragram Section */
+
+.instragram {
+    text-align: center;
+    padding: 50px 10%;
+    margin-bottom: 100px;
+}
+
+.gram-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.gram-container img {
+    width: 100%;
+}
+
+
 
 
 
