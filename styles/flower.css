@@ -213,7 +213,7 @@ body {
 .subscribe form input {
     border-radius: 20px 0 0 20px;
     padding: 24px 20px;
-    min-width: 300px;
+    width: 300px;
     outline: none;
     border: none;
 
@@ -264,6 +264,11 @@ footer span {
 
     .support {
         flex-direction: column;
+    }
+
+    .subscribe {
+        width: 95%;
+        padding: 30px 20px;
     }
 
 
