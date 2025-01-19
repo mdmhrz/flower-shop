@@ -181,6 +181,41 @@ body {
     width: 100%;
 }
 
+/* Styling for Subscribe */
+
+.subscribe {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-image: url("../images/rectangle-9.png");
+    padding: 50px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.subscribe form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.sub-btn {
+    border-radius: 0 20px 20px 0;
+}
+
+.subscribe form input {
+    border-radius: 20px 0 0 20px;
+    padding: 24px 20px;
+    min-width: 400px;
+    outline: none;
+    border: none;
+
+}
+
+
+
 
 
 
