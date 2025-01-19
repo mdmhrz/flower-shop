@@ -149,6 +149,18 @@ body {
     text-align: center;
 }
 
+/* Styling for Hot Deal */
+
+.hot-deal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 10%;
+    background-color: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 
 
