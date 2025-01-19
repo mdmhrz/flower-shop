@@ -120,10 +120,8 @@ body {
     font-weight: bold;
 }
 
-
 .ft-box img {
-    width: calc(100% - 120px);
-    padding: 20px 60px 0px;
+    width: 70%;
 }
 
 .featured-container {
@@ -161,6 +159,11 @@ body {
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
+    gap: 100px;
+}
+
+.hot-deal-image img {
+    width: 80%;
 }
 
 /* Styling for Instragram Section */
@@ -208,7 +211,7 @@ body {
 .subscribe form input {
     border-radius: 20px 0 0 20px;
     padding: 24px 20px;
-    min-width: 400px;
+    min-width: 300px;
     outline: none;
     border: none;
 
@@ -238,5 +241,17 @@ footer span {
     .banner {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .featured-container,
+    .hot-deal {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .support {
+        flex-direction: column;
+    }
+
 
 }
